@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<h1>, initial-scale=1.0">
+    <title>bioDataForm</title>
+</head>
+<body>
+    <h1>My Bio Data</h1>
+    <form>
+        <fieldset>
+        <legend>Personal Information </legend>
+        FirstName: <input type="text"placeholder="First Name"> LastName: <input type="text"placeholder="Last Name">
+        <br><br>
+        Male:<input type="radio"name="male"value="male"> Female:<input type="radio"name="male"value="male"> Other:<input type="radio"name="male"value="male">
+        <br><br>
+        Date of Birth :  <input type="date" name="begin"
+		placeholder="mm-dd-yyyy" value=""
+		min="1997-01-01" max="2030-12-31">   
+        <br><br>
+        E-Mail : <input type="email"placeholder="Enter Your Email">
+       <br><br>
+        Phone <input type="number"placeholder="+91">
+        <br><br>
+        Height <input type="number"placeholder="Height in Feet">
+    </fieldset>
+    <fieldset>
+        <legend>Education</legend>
+        School Name : <input type="text"placeholder="School Name">
+       <br><br>
+        Class : <input type="text"placeholder="Enter Class">
+        <br><br>
+        Stream : <select>
+            <Option>Stream </Option>
+        </select>
+        <br><br>
+        Marksheet :  <input type="file" id="myFile" name="filename">
+    </fieldset>
+    <br>
+    <button>Submit</button>
+    </form>
+</body>
+</html>
